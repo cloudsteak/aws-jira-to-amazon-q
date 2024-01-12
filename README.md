@@ -5,7 +5,6 @@
 - Connecting Jira to Amazon Q: https://docs.aws.amazon.com/amazonq/latest/business-use-dg/jira-connector.html
 - CreateDataSource: https://docs.aws.amazon.com/amazonq/latest/api-reference/API_CreateDataSource.html
 
-
 ## Jira
 
 Jira Project:
@@ -22,4 +21,3 @@ https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-
 4. Click  Copy to clipboard, then paste the token to your script, or elsewhere to save
 
 ## AWS
-
