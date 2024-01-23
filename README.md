@@ -20,6 +20,7 @@ https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-
 3. From the dialog that appears, enter a Label (`AWS-2-Jira`) for your token and click  Create
 4. Click  Copy to clipboard, then paste the token to your script, or elsewhere to save
 
+
 ## AWS
 
 Amazon Q is available only in several US Region:
@@ -31,10 +32,6 @@ We use `us-east-1` region
 ### IAM role for Amazon Q data source connectors
 
 https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/home
-
-1. https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/home
-2. 
-
 
 ### Create Amazon Q Application
 
@@ -54,7 +51,7 @@ https://us-east-1.console.aws.amazon.com/amazonq/home?region=us-east-1#applicati
     - Authorization: ACL
     - AWS Secrets Manager secret: Create and add a new secret
         - Secret name: QBusiness-Jira-CloudSteak
-        - Jira ID: AIQ
+        - Jira ID: (emai)
         - `Password/Token` is the token we created in Jira
     - Identity crawler is on
     - IAM role
@@ -78,6 +75,19 @@ https://us-east-1.console.aws.amazon.com/amazonq/home?region=us-east-1#applicati
 
 
 
+### Web Experience
+
+Setting up Amazon Q with IAM Identity Center as identity provider: https://docs.aws.amazon.com/amazonq/latest/business-use-dg/idp-sso.html
+
+1. Open application page: https://us-east-1.console.aws.amazon.com/amazonq/home?region=us-east-1#applications
+2. Open your application
+3. Scroll down to `Web Experience`
+4. Click `Enable Web Experience`
 
 
+https://docs.aws.amazon.com/amazonq/latest/business-use-dg/idp-sso.html
+https://docs.aws.amazon.com/amazonq/latest/business-use-dg/deploy-experience.html
+https://docs.aws.amazon.com/amazonq/latest/business-use-dg/using-web-experience.html
 
+
+IdP: https://us-east-1.console.aws.amazon.com/singlesignon/home?region=us-east-1#!/
